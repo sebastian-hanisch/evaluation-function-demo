@@ -1,5 +1,7 @@
 # Bewertungsfunktionen: schätzen statt bis zum Ende suchen
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-evaluation-function-demo.streamlit.app/)**
+
 Kind-Stück von **[minimax-demo](https://github.com/sebastian-hanisch/minimax-demo)** (Wurzel der
 Adversarische-Suche-Linie, Wurzel des zweiten Astes "Suchtiefe begrenzen statt mehr durchsuchen"). Vehikel:
 dasselbe Mini-Vier-Gewinnt, dasselbe Brettmodell.
