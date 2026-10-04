@@ -40,7 +40,7 @@ Bewertungsfunktion ist eine lineare Kombination dieser drei Merkmale, mit zwei v
 
 **Ehrlicher, unerwarteter Befund**: erwartet war, dass die gefittete Gewichtung die handgewählte schlägt
 ("zeigt, dass Handabstimmung suboptimal ist" – ursprüngliche DAG-Scoping-Notiz). Gemessen (Zugübereinstimmung
-mit dem exakten Optimalzug, 500 Testpositionen je Zeile):
+mit dem exakten Optimalzug, 197 bis 553 Testpositionen je Zeile):
 
 | Testbrett | Tiefe | Handgewichtet | Gefittet |
 |---|---|---|---|
@@ -113,3 +113,7 @@ pytest tests/ -v
 ```
 
 Gebaut mit Streamlit, Plotly und fpdf2.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Adversarische Suche: Minimax bis Selbstspiel](https://sebastianhanisch.net/konzepte-adversarische-suche.html).

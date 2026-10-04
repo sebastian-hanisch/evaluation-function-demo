@@ -195,7 +195,7 @@ st.subheader("🔬 Handgewicht oder gefittet – was funktioniert besser?")
 st.markdown(
     """
     Erwartet war: eine an bekannten exakten Werten angepasste Gewichtung sollte eine handgewählte
-    schlagen. **Gemessen** (Zugübereinstimmung mit dem exakten Optimalzug, 500 Testpositionen je Balken):
+    schlagen. **Gemessen** (Zugübereinstimmung mit dem exakten Optimalzug, 197 bis 553 Testpositionen je Balken):
     """
 )
 st.plotly_chart(agreement_figure(C.MEASURED_AGREEMENT), use_container_width=True, key="agreement_chart")
@@ -255,6 +255,6 @@ with st.expander("📐 Mathematische Formulierung"):
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Adversarische Suche: Minimax bis Selbstspiel](https://sebastianhanisch.net/konzepte-adversarische-suche.html)."
 )

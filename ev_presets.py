@@ -24,7 +24,7 @@ PRESETS = {
 PRESET_HELP = {
     "Handgewichtet (4×3)": "Kleines, exakt vergleichbares Brett mit der handgewählten Gewichtung.",
     "Gefittet (4×3)": "Dieselbe Größe, Gewichte per kleinste Quadrate an Trainingsdaten angepasst.",
-    "Echtes Vier-Gewinnt (6×7)": "Der Standardgröße, die exakte Suche praktisch nie löst - hier in Sekundenbruchteilen.",
+    "Echtes Vier-Gewinnt (6×7)": "Die Standardgröße, die die exakte Suche praktisch nie löst - hier in Sekundenbruchteilen.",
 }
 
 _DEFAULTS = {"board_index": DEFAULT_BOARD_INDEX, "eval_choice": EVAL_HAND, "depth": DEFAULT_DEPTH, "moves": []}
