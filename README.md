@@ -69,7 +69,7 @@ verbessert, die eigentlich zählt.
 
 ## Tests
 
-47 Tests (`pytest tests/ -v`): Brettmechanik, Merkmalsextraktion (von Hand nachvollziehbar, antisymmetrisch
+53 Tests (`pytest tests/ -v`): Brettmechanik, Merkmalsextraktion (von Hand nachvollziehbar, antisymmetrisch
 unter Farbtausch), exakter Löser (Kreuzprobe gegen die Vorgängerstücke), Gewichtsanpassung (reproduzierbar,
 nicht-negativ), tiefenbegrenzte Suche (Konvergenz gegen den exakten Wert bei voller Tiefe), PDF-Export,
 Visualisierung, Streamlit-Rauchtests. Ein echter, unerwarteter Streamlit-Bug beim Bau gefunden+gefixt:
